@@ -16,7 +16,7 @@
     flCalendar: [],
 
     keyboardHandler(ev) {    
-      if( ev.altKey==true  && ev.shiftKey==true  && ev.code=='KeyJ' ) {
+      if( ev.altKey==true && ev.code=='KeyO' ) {
         ev.preventDefault();
             this.jumpToDate();            
         return true;
